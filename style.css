@@ -535,3 +535,48 @@ body{
     font-size: 17px;
     margin-top: 30px;
 }
+
+
+
+
+.dr-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.dr-two{
+    width: 650px;
+    background-color: turquoise;
+    padding: 50px 30px 50px 100px;
+}
+.dr-three{
+    width: 700px;
+    background-color: #44535d;
+
+    
+}
+.dr-two p{
+    font-size: 15px;
+    color: rgb(255, 166, 0);
+}
+.dr-two input{
+    padding: 15px 400px 15px 15px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+.dr-two label{
+    font-weight: bold;
+    
+}
+.dr-two button{
+    margin-top: 30px;
+    padding: 15px 35px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    border: none;
+}
+

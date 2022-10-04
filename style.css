@@ -443,3 +443,44 @@ body{
     margin-top: 150px;
     margin-bottom: 50px
 }
+
+
+
+.amount-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.plan{
+    width: 280px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 60px 30px;
+}
+.plan h1{
+    font-size: 40px;
+    color: rgb(255, 166, 0);
+}
+.plan p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.plan button{
+    padding: 15px 35px;
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(255, 166, 0);
+    color: #000;
+    border: none;
+    margin-top: 30px;
+}
+.plan button:hover{
+    background-color: #fff;
+    color: rgb(255, 166, 0);
+    transition: 0.4s;
+}

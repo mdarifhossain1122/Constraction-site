@@ -484,3 +484,54 @@ body{
     color: rgb(255, 166, 0);
     transition: 0.4s;
 }
+.test{
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.test h1{
+    font-size: 50px;
+    margin-top: -10px;
+}
+.test p{
+    font-size: 18px;
+    color: rgb(255, 166, 0);
+}
+
+
+
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-bottom: 150px;
+}
+.con-one{
+    width: 400px;
+    background-color: azure;
+    padding: 25px 15px;
+}
+.con-two{
+    display: flex;
+    align-items: center;
+    
+}
+.con-three img{
+    border-radius: 100%;
+}
+.con-four p{
+    margin-top: -10px;
+    font-size: 13px;
+    color: rgb(255, 166, 0);
+    margin-left: 20px;
+}
+.con-four h2{
+    margin-left: 20px;
+}
+.con-one p{
+    font-size: 17px;
+    margin-top: 30px;
+}

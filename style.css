@@ -1,0 +1,201 @@
+body{
+    margin: auto;
+}
+.frist-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px 0px 10px 0px ;
+    background-color: #36454F;
+    border: none;
+}
+.frist-container .call{
+    font-size: 20px;
+    margin-right: -200px;
+    color: white;
+
+}
+.frist-container .email{
+    font-size: 20px;
+    margin-left: 500px;
+    color: white;
+
+}
+.frist-container .facebook{
+    font-size: 20px;
+    margin-left: -200px;
+    
+}
+.frist-container .facebook a{
+    color: rgb(255, 166, 0);
+    border: 1px solid black;
+    padding: 5px;
+    background-color: black;
+    border-radius: 8px;
+
+}
+.two-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #44535d;
+    padding: 20px;
+    border: none;
+}
+.dream .con-dr{
+    font-size: 30px;
+    border: 1px solid tomato;
+    padding: 21px 30px 21px 120px;
+    margin-left: -20px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+}
+.home a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.home{
+    margin-right: 100px;
+}
+
+.since{
+    background-image: url(https://civilengineeringglobal.com/wp-content/uploads/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-1920-x-1080-1500x630.jpg);
+    height: 630px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.since-container{
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.since-container p{
+    font-size: 25px;
+    color: white;
+}
+.since-container h1{
+    font-size: 60px;
+    color: white;
+}
+.since-container .btn-one{
+    padding: 20px 25px 20px 25px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.since-container .btn-two{
+    padding: 20px 25px 20px 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #36454F;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    background-image: url(https://i0.wp.com/www.aribuybd.com/wp-content/uploads/2020/11/engineer-aribuy-1.jpg?fit=1000%2C1000&ssl=1);
+    height: 600px;
+    width: 700px;
+}
+.container-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    PADDING-bottom: 100px;
+    border: none;
+    
+    
+}
+.topic-start{
+    width: 700px;
+}
+.card-start{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card-setup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 320px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    background-color: #bec2c4;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.card-setup:hover{
+    background-color: rgb(255, 166, 0);
+
+}
+.container h1{
+    font-size: 40px;
+}
+.services p{
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.services h1{
+    font-size: 60px;
+    margin-top: -20px;
+}
+.services{
+    text-align: center;
+}
+.arki{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.arki-two{
+    width: 650px;
+}
+.arki-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 230px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    border: none;
+}
+.arki-three h1{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.arki-three p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.arki-three button{
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: none;
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.arki-image{
+    margin-top: -60px;
+}
+.arki-three button:hover{
+    background-color: black;
+    color: white;
+}

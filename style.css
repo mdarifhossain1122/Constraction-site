@@ -544,17 +544,16 @@ body{
     align-items: center;
     justify-content: space-around;
     margin-bottom: 100px;
+    background-color: navajowhite;
 }
 .dr-two{
     width: 650px;
-    background-color: turquoise;
     padding: 50px 30px 50px 100px;
 }
 .dr-three{
     width: 700px;
-    background-color: #44535d;
-
-    
+    padding: 30px 10px 50px 50px;
+    height: 706px;
 }
 .dr-two p{
     font-size: 15px;
@@ -579,4 +578,29 @@ body{
     border-radius: 5px;
     border: none;
 }
-
+.dr-three h4{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+}
+.dr-three h1{
+    font-size: 60px;
+}
+.dr-three p{
+    font-size: 20px;
+}
+.dr-three a{
+    border: 1px solid rgb(158, 157, 157);
+    font-size: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 150px 10px 10px;
+    color: #000;
+    border: none;
+}
+.dr-two button:hover{
+    color: rgb(255, 166, 0);
+    background-color: #000;
+    transition: 0.4s;
+}
